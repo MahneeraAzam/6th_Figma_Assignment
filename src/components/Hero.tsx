@@ -38,7 +38,6 @@ function Hero() {
             </div>
             </div>
 
-
             {/* RightDiv */}
             <div className='
             w-full xsm:w-1/2 
@@ -53,11 +52,6 @@ function Hero() {
                 '></Image>
             </div>
         </div>
-
-
-
-
-
 
 
         {/* bottomImgDiv */}

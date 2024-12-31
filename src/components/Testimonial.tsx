@@ -40,11 +40,6 @@ function Testimonial() {
                         </div>
                     </div>
             )})}
-            
-            
-            
-
-
 
     </div>
     </section>

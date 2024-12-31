@@ -1,7 +1,4 @@
 import React from 'react'
-import Image from 'next/image';
-// import CoursesCards from './CoursesCards';
-import { Button } from './ui/button';
 import CoursesCards from './CoursesCards';
 
 function Courses() {

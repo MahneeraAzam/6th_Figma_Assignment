@@ -37,8 +37,8 @@ function Header() {
                 <li><Link href={"/"} className='sm:px-[10px] text-[16px] leading-[150%]'>Courses</Link></li>
                 <li><Link href={"/"} className='sm:px-[10px] text-[16px] leading-[150%]'>Services</Link></li>
                 <li><Link href={"/"} className='sm:px-[10px] text-[16px] leading-[150%]'>Achievements</Link></li>
-                <li><Link href={"/"} className='sm:px-[10px] text-[16px] leading-[150%]'>About Us</Link></li>
-                <li><Link href={"/"} className='sm:px-[10px] text-[16px] leading-[150%]'>Testimonial</Link></li>
+                <li><Link href={"/about"} className='sm:px-[10px] text-[16px] leading-[150%]'>About Us</Link></li>
+                <li><Link href={"/testimonial"} className='sm:px-[10px] text-[16px] leading-[150%]'>Testimonial</Link></li>
                 
             </ul>
 
@@ -50,10 +50,7 @@ function Header() {
         </div>
     </div>
 
-
 </header>
-
-
 
    </>
   )

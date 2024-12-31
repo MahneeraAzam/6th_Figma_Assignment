@@ -9,9 +9,6 @@ function Achievement() {
           <h2 className='font-bold text-[48px] leading-[57.6px]'>Our Achivements</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.</p>
 
-
-
-
             <div className='flex gap-[260px] xl:w-[1256px] lg:w-[850px] md:w-[700px] justify-center items-center h-[96px] pt-[32px]'>
               <h3 className='font-bold text-[40px] leading-[48px]'>+200</h3>
               <h3 className='font-bold text-[40px] leading-[48px]'>+50K</h3>
@@ -20,11 +17,7 @@ function Achievement() {
             </div>
 
         </div>
-
-
-
       </section>
-
     </>
   )
 }

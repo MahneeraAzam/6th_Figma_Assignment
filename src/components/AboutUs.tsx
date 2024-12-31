@@ -56,5 +56,3 @@ function AboutUs() {
 export default AboutUs;
 
 
-// {[...Array(6)].map((_, index) => (
-// ))}
