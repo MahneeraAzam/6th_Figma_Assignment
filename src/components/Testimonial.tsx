@@ -15,7 +15,7 @@ function Testimonial() {
 
             {[...Array(3)].map((_,index)=>{return(
 
-        <div className='shrink-0 grow-0 p-[32px] w-[362px] border-[1px] border-black'>
+        <div className='shrink-0 grow-0 p-[32px] w-[362px] border-[1px] border-black' key={index}>
 
                         <div className='flex gap-[4px] mb-[24px]'>
                         <FaStar size={20}/>
@@ -25,7 +25,7 @@ function Testimonial() {
                         <FaStar size={20}/>
                         </div>
             
-                        <p className='mb-[24px]'>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare."</p>
+                        <p className='mb-[24px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
             
                         <div className='flex gap-[20px]'>
                             <div className='w-[56px] h-[56px] rounded-full overflow-hidden'>
